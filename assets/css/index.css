@@ -1,0 +1,28 @@
+.header {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: #263238;
+    /*border-bottom: 1px solid #dedede;*/
+}
+
+.header.fixed {
+    border-bottom: 1px solid #ddd;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.05);
+}
+
+.header-wrapper {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    height: 54px;
+    line-height: 56px;
+}
+
+.header-logo {
+    font-size: 30px;
+    font-family: 'Do Hyeon', 'sans-serif';
+    color: #fff;
+}
